@@ -1,0 +1,46 @@
+.main_pic {
+  padding-top: 117px;
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+  width: 80%;
+
+  overflow: hidden;
+}
+.main_pic img {
+  width: 50%;
+}
+.main_pic h1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 27px;
+  font-weight: 900;
+  color: magenta;
+  overflow: hidden;
+}
+.main {
+  margin-top: 100px;
+  width: 80%;
+}
+.main__display {
+  width: 100%;
+  text-align: center;
+  padding: 0 17.5%;
+  box-sizing: border-box;
+}
+.main__side-bar {
+  margin-top: 15px;
+  width: 20%;
+
+  position: fixed;
+  right: 0;
+  top: 117px;
+  text-align: center;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+.main__display h1 {
+  font-size: 30px;
+  font-weight: 800;
+}

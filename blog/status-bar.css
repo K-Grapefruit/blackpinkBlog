@@ -1,0 +1,32 @@
+.he {
+  position: fixed;
+  width: 100%;
+  background-color: cornsilk;
+  z-index: 1;
+}
+.status-bar {
+  margin-top: 35px;
+  padding-right: 10%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.status-bar-nav {
+  padding: 0px 10px;
+  height: 20px;
+  border-right: 1px solid rgb(121, 121, 121, 0.2);
+}
+.header__main {
+  display: flex;
+  justify-content: space-around;
+  padding: 23px 0;
+  background-color: #ff2e5f;
+}
+
+.header__main__header__span {
+  border-right: 1px solid rgb(121, 121, 121, 0.6);
+  width: 100%;
+  padding: 0px 10px;
+}
