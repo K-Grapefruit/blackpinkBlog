@@ -26,7 +26,8 @@
 .main__display {
   width: 100%;
   box-sizing: border-box;
-  padding: 0px 15%;
+  padding: 0px 13%;
+  display: flex;
 }
 
 .main__display1 {
@@ -37,6 +38,8 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  border-right: 1px solid black;
+  margin-right: 15px;
 }
 
 .main__display1_pic {
@@ -110,4 +113,32 @@
 .main__display h1 {
   font-size: 30px;
   font-weight: 800;
+}
+
+.main_display2 {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_display2_info {
+  display: flex;
+}
+
+.main_display2_info_pic {
+  width: 90px;
+  height: 90px;
+  border: 1px solid black;
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+.main_display2_info_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main_display2_info_text h2 {
+  font-size: 25px;
 }
